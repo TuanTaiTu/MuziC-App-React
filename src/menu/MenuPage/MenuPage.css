@@ -1,0 +1,22 @@
+.nav1{
+    float: inline-end;
+    height: 70px;
+    width: 80%;
+    background-color: rgb(53, 195, 53);
+}
+.bshome{
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+}
+
+
+
+.bg-body-tertiary{
+    float: inline-start; 
+    border: 1px solid #000;
+    height: 700px;
+    width: 20%;
+    background-color: #ff0000;
+    
+}

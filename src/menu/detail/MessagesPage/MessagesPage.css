@@ -1,0 +1,12 @@
+.h1{
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    
+}
+
+.table{
+    text-align: center;
+    display: table-cell;
+    padding: 10px;
+}
