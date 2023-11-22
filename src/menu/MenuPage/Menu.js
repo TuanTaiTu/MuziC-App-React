@@ -21,7 +21,7 @@ export function Menu() {
     
       <Navbar expand="bg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand ><Link to='/instagram'><BsHouse className="bshome" /> Home </Link></Navbar.Brand>
+          <Navbar.Brand ><Link to='/instagram'><BsHouse className="bshome" /> Trang Chu </Link></Navbar.Brand>
         </Container>
         <Container>
           <Navbar.Brand><Link to='/search'><BsSearch /> Search</Link></Navbar.Brand>
