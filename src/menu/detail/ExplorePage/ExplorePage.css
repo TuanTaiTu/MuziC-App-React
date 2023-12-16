@@ -1,0 +1,25 @@
+.wrap2{
+
+    background-color: rgb(23, 15, 35);
+    height: fit-content;
+    /* padding-top: 30px; */
+}
+
+h1{
+    height: fit-content;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 50px;
+   
+}
+
+.listgroup{
+    height: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0px 0px 150px;
+}

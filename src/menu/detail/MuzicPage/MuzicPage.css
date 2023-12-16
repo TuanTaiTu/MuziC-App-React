@@ -1,0 +1,68 @@
+.wrap1{
+    height: fit-content;
+    background-color: rgb(23, 15, 35);
+    margin-top: 100px;
+}
+
+.header{
+    height: max-content;
+    background-color: rgb(23, 15, 35);
+    display: flex;
+    /* justify-content: start; */
+    padding-top: 10px;
+    margin-left: 160px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content{
+    margin-top: 10px;
+    height: fit-content;
+    background-color: rgb(23, 15, 35);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.card{
+    background-color: rgb(23, 15, 35);
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+    /* border-color: white; */
+    /* border-width: 0.5px; */
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card:hover{
+    border-color: rgb(155, 77, 224);
+    border-width: 1px;
+    transform: scale(1.05)  translateY(-5px);
+    transition: transform 0.5s ease-in-out;
+}
+.name{
+    padding-left: 10px;
+    text-align: start;
+    color: white;
+    font-size: xx-large;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name:hover{
+    color: plum;
+}
+
+.image{
+    height: 270px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+
+.listgroup1{
+    width: 1200px;
+    height: fit-content;
+}
