@@ -1,5 +1,4 @@
-
-.mainnav{
+.mainnav {
     height: 100px;
     width: initial;
     background-color: rgb(23, 15, 35);
@@ -11,12 +10,12 @@
     text-decoration: none;
 }
 
-.search-btn{
+.search-btn {
     background-color: rgb(56, 37, 85);
     border-color: plum;
 }
-.search-btn:hover{
-        background-color: plum;
-        
-    }
 
+.search-btn:hover {
+    background-color: plum;
+
+}
