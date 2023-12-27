@@ -1,10 +1,11 @@
 import React from "react";
 import './MuzicPage.css'
 import { useState, useEffect } from "react";
+import axios from 'axios';
+
 // Import Bootstrap
 import ListGroup from 'react-bootstrap/ListGroup';
 import { BsPlay  } from "react-icons/bs";
-import axios from 'axios';
 
 
 function CardItem(props){
@@ -46,8 +47,8 @@ function MuzicPage() {
         {/* Card 2 */}
         <CardItem
         imageUrl='Chovy.png'
-        alt="Tuan Pham"
-        name="Tuan Pham"
+        alt="Chovy"
+        name="Chovy"
         />
         {/* Card 3 */}
         <CardItem
@@ -60,20 +61,7 @@ function MuzicPage() {
         imageUrl='robe1.jpg'
         alt="Robber"
         name="Robber"
-        /> <br/>
-        
-        {/* Card 5 */}
-        {/* <CardItem
-        imageUrl='robe1.jpg'
-        alt="Robber"
-        name="Robber"
-        /> */}
-        {/* Card 6 */}
-        {/* <CardItem
-        imageUrl='robe1.jpg'
-        alt="Robber"
-        name="Robber"
-        /> */}
+        /> 
         
       </div>
       <h1 className="header">Playlist</h1>

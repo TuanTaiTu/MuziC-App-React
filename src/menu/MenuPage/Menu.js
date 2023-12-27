@@ -25,9 +25,17 @@ function Menu() {
                   <Link to={'/'} style={{ textDecoration: 'none', color: 'plum' }}>Home</Link>
                 </Nav.Link>
 
+<<<<<<< HEAD
                 <Nav.Link>
                   <Link to={'/explore'} style={{ textDecoration: 'none', color: 'plum' }}>Explore</Link>
                 </Nav.Link>
+=======
+                  <NavDropdown title="More" style={{textDecoration: 'none', color:'white'}} className='success'>
+                  
+                    <NavDropdown.Item>
+                      <Link to={'/login'} style={{textDecoration: 'none', color:'plum'}}>Log in</Link>
+                    </NavDropdown.Item>
+>>>>>>> 340d844284c66e33ccddb96cca37a005d3e99cac
 
                 <Nav.Link >
                   <Link to={'/top100'} style={{ textDecoration: 'none', color: 'plum' }}>Top 100</Link>
