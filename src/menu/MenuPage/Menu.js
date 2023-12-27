@@ -33,7 +33,8 @@ function Menu() {
                     <Link to={'/top100'} style={{textDecoration: 'none', color:'plum'}}>Top 100</Link>
                   </Nav.Link>
 
-                  <NavDropdown title="More" style={{textDecoration: 'none', color:'plum'}}>
+                  <NavDropdown title="More" style={{textDecoration: 'none', color:'white'}} className='success'>
+                  
                     <NavDropdown.Item>
                       <Link to={'/login'} style={{textDecoration: 'none', color:'plum'}}>Log in</Link>
                     </NavDropdown.Item>

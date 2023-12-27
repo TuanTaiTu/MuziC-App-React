@@ -1,7 +1,6 @@
 .wrap3{
     height: fit-content;
     background-color: rgb(23, 15, 35);
-    
     align-items: center;
     justify-content: center;
 }
@@ -12,11 +11,10 @@ h1{
 }
 
 .pro-card{
+    margin: auto;
     height: 300px;
     width: 500px;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+/* place-items: center; */
 }
 .pro-card:hover{
     border-color: rgb(155, 77, 224);
